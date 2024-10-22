@@ -1,0 +1,68 @@
+:root {
+    --gray:#333 ;
+--button: rgb(46, 46, 198);
+--white: rgb(255, 255, 255);
+}
+
+header{color: rgb(255, 255, 255);}
+
+
+
+.logo-header{   color: black;
+ font-size: 23px; 
+ line-height: 1.2;
+ text-decoration: none; 
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+
+
+}
+
+
+body{
+    font-family: "Roboto";
+}
+
+.services{
+color: #212121;
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 700;
+    
+}
+
+.what-a-service{
+color: #757575;
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: 400;
+   
+}
+
+ button:hover {
+    color: #212121;
+    background-color:var(--button);
+    transition: 0.7s;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+ .logo-footer{color: var(--white);
+    font-size: 23px;
+    line-height: 1.2;
+    text-decoration: none; 
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+
+
+ }
+
+
+    footer{background-color: var(--gray);}
+    .address-footer{color: var(--white);}
+    .li-footer{color: var(--gray);}
+    .gmail-footer{color: var(--white);}
+    .tel-footer{color:var(--white) ;}
